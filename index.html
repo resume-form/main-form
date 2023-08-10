@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Enrollment HTML Form
+        </title>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <body>
+        <h1>Enrollment Form</h1>
+        <form id="enrollmentForm"><br>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required><br>
+            <br>
+
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required><br>
+            <br>
+
+            <label for="RegisterNumber">Register Number:</label><br>
+            <input type="text" id="RegisterNumber" name="RegisterNumber" placeholder="Enter Register Number" pattern="21222[0-9]{8}" required><br>
+            <br>
+
+            <label for="Email-id">Email-id:</label><br>
+            <input type="text" id="Email-id" name="Email-id" placeholder="Enter Email-id" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br>
+            <br>
+
+            <label for="MobileNumber">Mobile Number:</label><br>
+            <input type="numberInput" id="MobileNumber" name="Mobile Number" placeholder="Enter Mobile Number" pattern="[6-9]{1}[0-9]{9}" required><br>
+            <br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+           <label for="dept">Department:</label><br>
+            <input type="radio" id="IT" name="dept" value="IT" required>
+            <label for="iT">Information Technology</label><br>
+            <input type="radio" id="ME" name="dept" value="ME">
+            <label for="ME">Medical Electronics</label><br>
+            <input type="radio" id="CSE" name="dept" value="CSE">
+            <label for="CSE">Computer science and Engineering</label><br>
+            <input type="radio" id="eee" name="dept" value="eee">
+            <label for="eee">Electrical and Electronics Engineering</label><br>
+            <input type="radio" id="mech" name="dept" value="mech">
+            <label for="mech">Mechanical Engineering</label><br><br>
+
+            <label for="year">Year:</label><br>
+            <select id="year" name="year" required>
+                <option value="2ndyear">II Year</option>
+                <option value="3ndyear">III Year</option>
+                <option value="4ndyear">IV Year</option>
+            </select><br>
+            <br>
+
+            <label for="Languages you know">Laanguages you Known</label><br>
+            <input type="checkbox" name="Puthon" value="Python">Python<br>
+            <input type="checkbox" name="C" value="C">C<br>
+            <input type="checkbox" name="Java" value="Java">Java<br>
+            <input type="checkbox" name="C++" value="C++">C++<br>
+            <br>
+
+            <label for="AvailableSlot">Available Slot(s)</label><br>
+            <input type="checkbox" name="8am" value="8am">8am - 10pm<br>
+            <input type="checkbox" name="11pm" value="11pm">11pm - 12pm<br>
+            <input type="checkbox" name="3pm" value="3pm">3pm - 5pm<br>
+            <br>
+
+            <label for="pdf upload">Upload Resume</label><br>(.pdf format omly)<br>
+            <input name="file1" type="file" accept=".pdf" required><br><br>
+
+            <button type="submit">Enroll</button>
+            <br>
+
+    </body>
+</html>
