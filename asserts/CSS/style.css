@@ -1,0 +1,23 @@
+body {
+    background-color:rgba(255, 182, 193, 0.933);
+}
+h1 {
+    color:rgb(255, 89, 0);
+    text-align: center;
+}
+div {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    border:3px solid rgba(102, 51, 153, 0.971);
+    
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 30px;
+    padding: 30px;
+    outline-offset: 0.5em;
+}
+
+

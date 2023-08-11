@@ -1,33 +1,48 @@
 <!DOCTYPE html>
-<html>
     <head>
+
         <title>
             Enrollment HTML Form
         </title>
-        <link rel="stylesheet" href="assets/styles.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Student enrollment form">
+        <meta name="keyword" content="HTML,CSS">
+        <meta name="view port" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="asserts\CSS/style.css">
     </head>
     <body>
+        <div>
+       
         <h1>Enrollment Form</h1>
         <form id="enrollmentForm"><br>
+            
             <label for="firstName">First Name:</label><br>
             <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required><br>
             <br>
+        
+        
 
             <label for="lastName">Last Name:</label><br>
             <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required><br>
             <br>
+        
+        
 
             <label for="RegisterNumber">Register Number:</label><br>
             <input type="text" id="RegisterNumber" name="RegisterNumber" placeholder="Enter Register Number" pattern="21222[0-9]{8}" required><br>
             <br>
+       
+        
 
             <label for="Email-id">Email-id:</label><br>
             <input type="text" id="Email-id" name="Email-id" placeholder="Enter Email-id" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br>
             <br>
+        
 
             <label for="MobileNumber">Mobile Number:</label><br>
             <input type="numberInput" id="MobileNumber" name="Mobile Number" placeholder="Enter Mobile Number" pattern="[6-9]{1}[0-9]{9}" required><br>
             <br>
+        
 
             <label for="gender">Gender:</label><br>
             <input type="radio" id="male" name="gender" value="Male" required>
@@ -73,6 +88,10 @@
 
             <button type="submit">Enroll</button>
             <br>
-
+        
+        
+        </form>
+        </div>
+    
     </body>
 </html>
